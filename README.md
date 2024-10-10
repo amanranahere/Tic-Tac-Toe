@@ -16,7 +16,7 @@ Who hasn't played Tic-Tac-Toe? It's a classic game that everyone knows! I decide
 
 ## How to Play
 
-1. Visit the live demo of the game at [GitHub Pages](https://yourusername.github.io/tic-tac-toe).
+1. Visit the live demo of the game at [GitHub Pages](https://amanranahere.github.io/Tic-Tac-Toe/).
 2. Click on the boxes to place your mark ('X' or 'O').
 3. Enjoy the game and try to win!
 
