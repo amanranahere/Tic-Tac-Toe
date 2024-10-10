@@ -23,8 +23,13 @@ Who hasn't played Tic-Tac-Toe? It's a classic game that everyone knows! I decide
 <br>
 
 ## Demo
+### Player 1's Turn (X)
+![Tic-Tac-Toe Screenshot](assets/Screenshot(1).png)
 
-![Tic-Tac-Toe Screenshot](link_to_your_screenshot)
+<br>
+
+### Player 2's Turn (O)
+![Tic-Tac-Toe Screenshot](assets/Screenshot(2).png)
 
 
 
