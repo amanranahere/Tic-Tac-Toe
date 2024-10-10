@@ -1,0 +1,110 @@
+/*   ||  FONTS  ||   */
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
+
+/*  || RESET ||  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  || UTILITY CLASSES ||  */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/*  || HEADER AND FOOTER ||  */
+
+header,
+footer {
+  background-color: #222831;
+  color: whitesmoke;
+  position: sticky;
+  text-align: center;
+}
+
+header {
+  font-family: "Comforter Brush";
+  top: 0;
+  font-size: 1.75rem;
+  padding-top: 0.5rem;
+}
+
+footer {
+  bottom: 0;
+  padding: 0.25rem 0 0.25rem 0;
+}
+
+/*  || BODY ||  */
+
+body {
+  background-color: #31363f;
+  font-family: "Water Brush";
+  user-select: none;
+}
+
+.msg-container {
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  margin-top: 13.5vmin;
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.7vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  font-family: "Water Brush";
+  font-weight: bolder;
+  font-size: 8vmin;
+  color: #292f36;
+  background-color: #c0eef2;
+  border-radius: 10px;
+}
+
+.reset-btn,
+.new-btn {
+  font-size: 1rem;
+  padding: 0.8rem;
+  margin: 2vmin;
+  background-color: hsl(182, 100%, 95%);
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.msg {
+  text-align: center;
+  color: aliceblue;
+  font-size: 5vmin;
+}
